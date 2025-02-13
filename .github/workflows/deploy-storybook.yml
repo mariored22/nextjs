@@ -23,11 +23,11 @@ jobs:
           npm install --save-dev @storybook/nextjs @storybook/react @storybook/addon-essentials
 
       - name: Install Storybook if not present
-        run: npx storybook@latest init --yes --builder @storybook/builder-webpack5
+        run: npm storybook@latest init --yes --builder @storybook/builder-webpack5
         continue-on-error: true
         
       - name: Build Storybook
-        run: npx build-storybook
+        run: npm build-storybook
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
