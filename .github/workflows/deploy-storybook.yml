@@ -27,7 +27,7 @@ jobs:
         continue-on-error: true
         
       - name: Build Storybook
-        run: npm build-storybook
+        run: npm run build-storybook
         
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
