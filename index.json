@@ -1,1 +1,1 @@
-{"v":5,"entries":{}}
+{"v":5,"entries":{"components-button--primary":{"type":"story","id":"components-button--primary","name":"Primary","title":"Components/Button","importPath":"./src/app/blog/button.stories.tsx","tags":["dev","test"]}}}
